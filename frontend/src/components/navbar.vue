@@ -64,6 +64,7 @@
                 password="password-input"
                 v-model="password"
                 :state="passwordState"
+                type = "password"
                 required
               ></b-form-input>
              
