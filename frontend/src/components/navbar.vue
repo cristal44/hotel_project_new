@@ -70,7 +70,7 @@
              
             </b-form-group>
 
-            <h6 v-if="isMatched">Your ID or Password is incorrect, please try again </h6>
+            <b-alert show variant="danger" v-if="isMatched">Your ID or Password is incorrect, please try again </b-alert>
 
           </form>
         </b-modal>
@@ -190,8 +190,5 @@ import EventBus from '../event-bus'
     color: #b38600!important;
   }
 
-  h6 {
-    color: red
-  }
 
 </style>
